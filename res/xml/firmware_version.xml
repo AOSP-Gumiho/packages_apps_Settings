@@ -38,6 +38,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
+    <!-- Gumiho Maintainer  -->
+    <Preference
+        android:key="gumiho_maintainer"
+        android:title="@string/gumiho_maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.GumihoMaintainerPreferenceController"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
