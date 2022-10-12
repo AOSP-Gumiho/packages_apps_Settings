@@ -63,4 +63,7 @@
     
     <!-- Battery temperature -->
     <string name="battery_temp">Battery temperature</string>
+    
+    <!-- Battery light -->
+    <string name="battery_light_title">Turn on the light when charging</string>
 </resources>
